@@ -1,0 +1,13 @@
+let placesToVisit:string[]=["New York","Paris","Jakarta","Sydney","London","Adelaide","Islamabad"];
+ console.log("Original Order:",placesToVisit);
+ console.log("Alphabetical Order: ",[...placesToVisit].sort());
+ console.log("Original Order:",placesToVisit);
+ console.log("Reversed Alphabetical Order:",[...placesToVisit].sort().reverse());
+ console.log("Original Order:",placesToVisit);
+ console.log("Reversed Order:",placesToVisit.reverse());
+ //console.log("Original Order:",placesToVisit);
+ console.log("Original Order:",placesToVisit.reverse());
+ //console.log("Original Order:",placesToVisit);
+ console.log("Alphabetical Order: ",placesToVisit.sort());
+ //console.log("Order Changed: ",placesToVisit);
+ console.log("Reversed Alphabatical Order: ",placesToVisit.sort().reverse());
